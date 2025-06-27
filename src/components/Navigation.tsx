@@ -20,7 +20,7 @@ const Navigation = () => {
           <div className="flex items-center">
             <Globe className="w-8 h-8 text-emerald-600 mr-3" />
             <span className="text-2xl font-bold bg-gradient-to-r from-emerald-600 to-blue-600 bg-clip-text text-transparent">
-              GlobalTrade
+              Triasiaglobal
             </span>
           </div>
 

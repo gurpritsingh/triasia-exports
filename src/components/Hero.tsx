@@ -16,17 +16,17 @@ const Hero = () => {
           <div className="flex items-center justify-center mb-6">
             <Globe className="w-12 h-12 text-emerald-600 mr-4" />
             <h1 className="text-5xl md:text-7xl font-bold bg-gradient-to-r from-emerald-600 via-blue-600 to-amber-600 bg-clip-text text-transparent">
-              GlobalTrade
+              TriasiaGlobal
             </h1>
           </div>
           
           <p className="text-xl md:text-2xl text-gray-700 mb-8 font-light">
-            Premium Exports of Natural Products Worldwide
+            Premium Exports of Products Worldwide
           </p>
           
           <p className="text-lg text-gray-600 mb-12 max-w-2xl mx-auto leading-relaxed">
-            Connecting global markets with high-quality oil, herbal medicines, and cotton. 
-            Your trusted partner in international trade since 2010.
+            Connecting global markets with high-quality oil, herbal products, textiles, cotton, tea, fertilizers, spices and agriculture products
+            Your trusted partner in international trade.
           </p>
           
           <div className="flex flex-col sm:flex-row gap-4 justify-center">

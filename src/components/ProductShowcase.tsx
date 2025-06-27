@@ -13,7 +13,7 @@ const ProductShowcase = () => {
     },
     {
       icon: Leaf,
-      title: "Herbal Medicines",
+      title: "Herbal Products",
       description: "Traditional and modern herbal remedies, supplements, and wellness products meeting international standards.",
       features: ["Ayurvedic Products", "Herbal Supplements", "Natural Extracts", "Wellness Solutions"],
       color: "from-emerald-500 to-emerald-700",

@@ -33,7 +33,7 @@ const Footer = () => {
             <h3 className="text-lg font-semibold mb-4">Our Products</h3>
             <ul className="space-y-2">
               <li className="text-gray-400">Premium Oils</li>
-              <li className="text-gray-400">Herbal Medicines</li>
+              <li className="text-gray-400">Herbal Products</li>
               <li className="text-gray-400">Cotton Products</li>
               <li className="text-gray-400">Natural Extracts</li>
             </ul>
