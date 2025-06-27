@@ -28,17 +28,7 @@ const ContactSection = () => {
                   <MapPin className="w-8 h-8 text-emerald-400 mr-4" />
                   <div>
                     <h4 className="font-semibold text-white">Address</h4>
-                    <p className="text-gray-300">123 Export Plaza, Trade District, Mumbai, India</p>
-                  </div>
-                </CardContent>
-              </Card>
-              
-              <Card className="bg-white/10 border-white/20 backdrop-blur-sm">
-                <CardContent className="p-6 flex items-center">
-                  <Phone className="w-8 h-8 text-blue-400 mr-4" />
-                  <div>
-                    <h4 className="font-semibold text-white">Phone</h4>
-                    <p className="text-gray-300">+91 98765 43210</p>
+                    <p className="text-gray-300">Tagore garden, New Delhi</p>
                   </div>
                 </CardContent>
               </Card>
@@ -48,7 +38,7 @@ const ContactSection = () => {
                   <Mail className="w-8 h-8 text-purple-400 mr-4" />
                   <div>
                     <h4 className="font-semibold text-white">Email</h4>
-                    <p className="text-gray-300">info@globaltrade.com</p>
+                    <p className="text-gray-300">triasiaglobal@gmail.com</p>
                   </div>
                 </CardContent>
               </Card>
@@ -64,46 +54,6 @@ const ContactSection = () => {
             </div>
           </div>
           
-          <Card className="bg-white/10 border-white/20 backdrop-blur-sm">
-            <CardContent className="p-8">
-              <h3 className="text-2xl font-bold mb-6 text-white">Send us a Message</h3>
-              
-              <form className="space-y-6">
-                <div className="grid grid-cols-2 gap-4">
-                  {/* <Input 
-                    placeholder="First Name" 
-                    className="bg-white/10 border-white/30 text-white placeholder:text-gray-300"
-                  />
-                  <Input 
-                    placeholder="Last Name" 
-                    className="bg-white/10 border-white/30 text-white placeholder:text-gray-300"
-                  /> */}
-                </div>
-                
-                {/* <Input 
-                  type="email" 
-                  placeholder="Email Address" 
-                  className="bg-white/10 border-white/30 text-white placeholder:text-gray-300"
-                />
-                
-                <Input 
-                  placeholder="Company Name" 
-                  className="bg-white/10 border-white/30 text-white placeholder:text-gray-300"
-                />
-                
-                <Textarea 
-                  placeholder="Tell us about your requirements..." 
-                  rows={5}
-                  className="bg-white/10 border-white/30 text-white placeholder:text-gray-300 resize-none"
-                /> */}
-                
-                <Button className="w-full bg-gradient-to-r from-emerald-500 to-blue-600 hover:from-emerald-600 hover:to-blue-700 text-white py-6 text-lg group">
-                  Send Message
-                  <Send className="ml-2 w-5 h-5 group-hover:translate-x-1 transition-transform" />
-                </Button>
-              </form>
-            </CardContent>
-          </Card>
         </div>
       </div>
     </section>
