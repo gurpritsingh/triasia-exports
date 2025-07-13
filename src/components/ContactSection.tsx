@@ -36,10 +36,10 @@ const ContactSection = () => {
               <Card className="bg-white/10 border-white/20 backdrop-blur-sm">
                 <CardContent className="p-6 flex items-center">
                   <Mail className="w-8 h-8 text-purple-400 mr-4" />
-                  <div>
-                    <h4 className="font-semibold text-white">Email</h4>
+                  <a className="flex" href="mailto:triasiaglobal@gmail.com">
+                    <h4 className="font-semibold text-white mr-4">Email</h4>
                     <p className="text-gray-300">triasiaglobal@gmail.com</p>
-                  </div>
+                  </a>
                 </CardContent>
               </Card>
             </div>

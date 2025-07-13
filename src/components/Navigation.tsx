@@ -9,7 +9,7 @@ const Navigation = () => {
     { label: "Home", href: "#" },
     { label: "Products", href: "#products" },
     { label: "About", href: "#about" },
-    { label: "Contact", href: "#contact" }
+    { label: "Contact", href: "#contact" },
   ];
 
   return (
@@ -18,10 +18,12 @@ const Navigation = () => {
         <div className="flex items-center justify-between h-16">
           {/* Logo */}
           <div className="flex items-center">
-            <Globe className="w-8 h-8 text-emerald-600 mr-3" />
-            <span className="text-2xl font-bold bg-gradient-to-r from-emerald-600 to-blue-600 bg-clip-text text-transparent">
-              Triasiaglobal
-            </span>
+            <a href="#" className="flex">
+              <Globe className="w-8 h-8 text-emerald-600 mr-3" />
+              <span className="text-2xl font-bold bg-gradient-to-r from-emerald-600 to-blue-600 bg-clip-text text-transparent">
+                Triasiaglobal
+              </span>
+            </a>
           </div>
 
           {/* Desktop Menu */}
@@ -35,9 +37,11 @@ const Navigation = () => {
                 {item.label}
               </a>
             ))}
-            <Button className="bg-emerald-600 hover:bg-emerald-700 text-white">
-              Get Quote
-            </Button>
+            <a href="mailto:triasiaglobal@gmail.com">
+              <Button className="bg-emerald-600 hover:bg-emerald-700 text-white">
+                Get Quote
+              </Button>
+            </a>
           </div>
 
           {/* Mobile Menu Button */}
@@ -47,7 +51,11 @@ const Navigation = () => {
               size="sm"
               onClick={() => setIsMenuOpen(!isMenuOpen)}
             >
-              {isMenuOpen ? <X className="w-6 h-6" /> : <Menu className="w-6 h-6" />}
+              {isMenuOpen ? (
+                <X className="w-6 h-6" />
+              ) : (
+                <Menu className="w-6 h-6" />
+              )}
             </Button>
           </div>
         </div>
